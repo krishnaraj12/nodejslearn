@@ -113,7 +113,7 @@ router.post('/login', (req, res) => {
   if (username === 'krishna' && password === '69admin') {
     res.render('index')
   } else {
-      res.send('Invalid username or password.');
+      res.render('loging')
   }
 });
 
