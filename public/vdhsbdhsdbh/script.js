@@ -65,8 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch('/stop-loop')
             .then(response => {
                 if (response.ok) {
-                    makeAPICall('v1', '1');
-                    makeAPICall('v2', '1');
+                   
                     console.log('Loop stopped');
                 } else {
                     console.error('Failed to stop loop');

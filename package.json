@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "this is a blynk app api used to create a WebApp to help me!",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
