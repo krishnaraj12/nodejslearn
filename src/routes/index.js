@@ -13,7 +13,7 @@ const makeAPICall = async (pin, value) => {
     try {
         const response = await axios.get('https://blr1.blynk.cloud/external/api/update', {
             params: {
-                token: '3FIal-QhcyJjX-doLiqLDyHbRCtAJVvS',
+                token: '3FIal-QhcyJjX-doLiqLDHbRCtSAJVv',
                 [pin]: value
             }
         });
